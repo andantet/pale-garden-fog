@@ -14,7 +14,7 @@
 	},
 	"license": "MIT",
 	"icon": "assets/pale-garden-fog/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 	},
 	"mixins": [
@@ -23,10 +23,5 @@
 			"config": "pale-garden-fog.client.mixins.json",
 			"environment": "client"
 		}
-	],
-	"depends": {
-		"fabricloader": ">=0.16.5",
-		"minecraft": "~1.21.1",
-		"java": ">=21"
-	}
+	]
 }
