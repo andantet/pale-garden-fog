@@ -3,30 +3,19 @@
 	"id": "pale-garden-fog",
 	"version": "${version}",
 	"name": "Pale Garden Fog",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds fog to the Pale Garden.",
 	"authors": [
-		"Me!"
+		"Andante"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/andantet/pale-garden-fog",
+		"sources": "https://github.com/andantet/pale-garden-fog",
+		"issues": "https://github.com/andantet/pale-garden-fog/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/pale-garden-fog/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			{
-				"value": "dev.andante.palegardenfog.PaleGardenFog",
-				"adapter": "kotlin"
-			}
-		],
-		"client": [
-			{
-				"value": "dev.andante.palegardenfog.PaleGardenFogClient",
-				"adapter": "kotlin"
-			}
-		]
 	},
 	"mixins": [
 		"pale-garden-fog.mixins.json",
@@ -38,11 +27,6 @@
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"java": ">=21"
 	}
 }
