@@ -22,6 +22,8 @@ repositories {
 loom {
 	splitEnvironmentSourceSets()
 
+	accessWidenerPath = file("src/main/resources/pale-garden-fog.accesswidener")
+
 	mods {
 		"pale-garden-fog" {
 			sourceSet sourceSets.main

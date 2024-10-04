@@ -23,5 +23,6 @@
 			"config": "pale-garden-fog.client.mixins.json",
 			"environment": "client"
 		}
-	]
+	],
+	"accessWidener": "pale-garden-fog.accesswidener"
 }
