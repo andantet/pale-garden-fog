@@ -1,11 +1,11 @@
 {
-	"required": true,
-	"package": "dev.andante.palegardenfog.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
+    "required": true,
+    "package": "dev.andante.palegardenfog.mixin.client",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
         "WorldRendererMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+    ],
+    "injectors": {
+        "defaultRequire": 1
 	}
 }
